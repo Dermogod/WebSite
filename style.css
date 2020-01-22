@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+  .header-block {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.problem-intro,
+.ppc-intro,
+.team-intro {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding-top: 48px;
+}
+.team-intro {
+  margin: 0px auto 32px;
+}
+
+.header {
+  background-color: #007765;
+}
+.header-layout {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  background: none;
+}
+.header-block {
+  display: flex;
+  margin: auto 0;
+  box-sizing: border-box;
+  color: #fff;
+  font: 22px sans-serif;
+  text-align: center;
+  background: none;
+}
+.header-menu {
+  box-sizing: border-box;
+  margin: 0 4px;
+}
+.header-logo {
+  width: 10%;
+  height: 10%;
+}
+
+.jumbotron {
+  padding: 15vh 0;
+  background-image: url("ITC_pipe_landing/background_pipernet.png");
+  background-size: cover;
+  background-position: center;
+}
+.jumbo-container {
+  width: 1219px;
+  margin: auto;
+  padding: 0 55px;
+  background-color: none;
+}
+.jumbo-message {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.problem {
+  padding: 0px 55px 92px 54px;
+  /* background-color: yellow; */
+}
+.problem-container {
+  width: 1219px;
+  margin: 0 auto;
+  /* background-color: red; */
+  padding: 0;
+}
+.problem-message {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.hero {
+  padding: 15vh 0;
+  background-image: url("https://i.ibb.co/PM6cMBn/image.png");
+  background-size: cover;
+  background-position: center;
+}
+.hero-container {
+  width: 1219px;
+  margin: 0 auto;
+  padding: 0 55px;
+  /* background-color: red; */
+}
+.hero-message {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+.ppc {
+  background-color: white;
+  padding: 0 0 92px;
+}
+.ppc-container {
+  width: 1219px;
+  margin: 0 auto;
+  padding: 0 55px;
+  /* background-color: red; */
+}
+.ppc-logo {
+  float: left;
+  padding-right: 48px;
+  border-radius: 0;
+}
+.ppc-message {
+  width: 1110px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.team {
+  background-color: #eee;
+}
+.team-container {
+  margin: 0 auto;
+  width: 1219px;
+  padding: 0 55px 60px;
+  /* background-color: cadetblue; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.img {
+  /* background-color: rgb(231, 219, 204); */
+  margin: auto 20px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+#img-title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+}
+
+.footer {
+  padding: 50px 0;
+  background-color: black;
+  display: flex;
+}
+.footer-author {
+  font-family: sans-serif;
+  margin: 0 auto;
+  font-size: 28px;
+  color: white;
+}
